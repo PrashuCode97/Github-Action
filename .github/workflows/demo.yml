@@ -37,4 +37,3 @@ jobs:
             context: .
             push: true
             tags: prashudocker01/githubcicd:1.4.0
-
