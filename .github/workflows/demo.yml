@@ -32,7 +32,9 @@ jobs:
           distribution: temurin
 
       - name: Package
-        run: mvn clean package
+        run: |
+          echo running package
+          mvn clean package
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v1
